@@ -1,6 +1,6 @@
 {
   "name": "nerdbot-ng",
-  "version": "1.0.0-ng",
+  "version": "1.0.0.1",
   "description": "A rebuilt from scratch version of NerdBot (Now with less dependencies!)",
   "main": "main.js",
   "scripts": {
