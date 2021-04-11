@@ -1,6 +1,9 @@
 {
-    "token": "bot_token",
-    "prefix": "nerd!",
-    "suppportsite": "http://localhost:80/",
-    "forkowner": "OakBricks, PurpurConcrete, YOUR NAME HERE, and contributors!"
+    "token": "BOT_TOKEN",
+    "prefix": "nerd?",
+    "suppportsite": "localhost:80/",
+    "forkowner": "OakBricks, PurpurConcrete, and contributors!",
+    "remoteversionfile-legacy": "https://raw.githubusercontent.com/oakbrickslinuxdistro/NerdBot-NG-versioninfo/main/remoteversionfile.json",
+    "motdurl": "https://raw.githubusercontent.com/oakbrickslinuxdistro/NerdBot-NG-onlinestuff/main/motd",
+    "remoteversionfile": "https://raw.githubusercontent.com/oakbrickslinuxdistro/NerdBot-NG-onlinestuff/main/latestversion-raw"
 }
