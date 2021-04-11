@@ -1,3 +1,3 @@
 # NerdBot-ng!
 
-Yet another discord bot that does nothing!
+###Yet another discord bot that does nothing!
