@@ -18,4 +18,10 @@ client.on('message', msg => {
   }
 });
 
+client.on('message', msg => {
+  if (msg.content === config.prefix + 'why') {
+    msg.channel.send('joe nuts');
+  }
+});
+
 client.login(config.token);
