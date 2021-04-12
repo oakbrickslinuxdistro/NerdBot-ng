@@ -33,8 +33,11 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-  if (message.content === config.prefixdebug + 'ping') {  
-    message.reply(`PONG! Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
+  if (message.content === config.prefixdebug + 'ping') {
+  message.channel.send('Loading data').then (async (msg) =>{
+    msg.delete()
+    message.channel.send(`🏓Latency is ${msg.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
+  })
   }
 });
 
