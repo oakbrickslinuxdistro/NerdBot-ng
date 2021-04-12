@@ -56,6 +56,7 @@ client.on('message', msg => {
     msg.channel.send('Prefix: ' + config.prefix);
     msg.channel.send('Prefix Example. ' + config.prefix + 'help');
     msg.channel.send('Support Website: ' + config.suppportsite);
+    msg.channel.send('Version Links: ' + config['remoteversionfile-legacy'] + '(legacy version checking), ' + config.remoteversionfile)
   }
 });
 
