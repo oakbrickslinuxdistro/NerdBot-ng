@@ -1,6 +1,7 @@
 {
     "token": "BOT_TOKEN",
     "prefix": "nerd?",
+    "prefixdebug": "debug?ne!",
     "suppportsite": "localhost:80/",
     "forkowner": "OakBricks, PurpurConcrete, and contributors!",
     "remoteversionfile-legacy": "https://raw.githubusercontent.com/oakbrickslinuxdistro/NerdBot-NG-versioninfo/main/remoteversionfile.json",

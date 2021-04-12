@@ -32,6 +32,12 @@ client.on('ready', () => {
   console.log('The Current Version is ' + verfile.version + '!');
 });
 
+client.on('message', message => {
+  if (message.content === config.prefixdebug + 'ping') {  
+    message.reply(`PONG! Latency is ${Date.now() - message.createdTimestamp}ms. API Latency is ${Math.round(client.ws.ping)}ms`);
+  }
+});
+
 client.on('message', msg => {
   if (msg.content === config.prefix + 'ping') {
     msg.reply('pong');
